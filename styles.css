@@ -1,0 +1,14 @@
+/* remove page padding & width cap */
+.page-layout-full .content { padding: 0 !important; max-width: 100% !important; }
+
+/* navbar is ~56–60px; adjust for your theme */
+.map-full {
+  display: block;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  object-fit: contain;    /* or 'cover' if you want edge-to-edge crop */
+  margin: 0;
+}
+
+/* optional: hide the page title to reclaim space */
+.quarto-title-block { display: none !important; }

@@ -1,8 +1,0 @@
----
-title: "display-png"
-format: html
----
-
-# 24-Hour Rain Map
-
-![](https://stg4-edwards-latest.s3.us-east-2.amazonaws.com/contrib_zone_w_table_24h_latest.png){width=100%}

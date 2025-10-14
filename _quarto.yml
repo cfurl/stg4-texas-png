@@ -2,15 +2,16 @@ project:
   type: website
 
 website:
-  title: "Stage4 Texas PNG"
+  title: "Stage4 EAA NEXRAD"
   navbar:
     left:
       - text: "24-Hour"
-        href: display-png.qmd
+        href: recent-24.qmd
       - text: "YTD"
-        href: ytd.qmd
+        href: year-to-date.qmd
 
 format:
   html:
-    theme: cosmo
+    page-layout: full
+    css: [styles.css, styles-override.css]
     toc: false

@@ -1,0 +1,43 @@
+/* Overrides to ensure PNG fills viewport under navbar */
+
+/* Full-bleed content area */
+html, body { height: 100%; margin: 0; }
+
+/* Avoid scrollbars; the image will fit the viewport */
+body { overflow: hidden; }
+
+.page-layout-full .content {
+  padding: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Remove margins on Quarto grid wrappers */
+.page-layout-full .page-columns {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove default margins around wrappers */
+.page-layout-full .content p,
+.page-layout-full .content figure {
+  margin: 0 !important;
+}
+
+/* Image fills remaining viewport below Quarto navbar.
+   Use fixed positioning so parent layout margins don't constrain it. */
+.map-full {
+  position: fixed;
+  top: var(--quarto-navbar-height, 56px);
+  left: 0;
+  width: 100vw;
+  height: calc(100dvh - var(--quarto-navbar-height, 56px));
+  object-fit: contain; /* use 'cover' for edge-to-edge crop */
+  display: block;
+  margin: 0;
+}
+
+/* Hide the page title to keep only navbar + map */
+.quarto-title-block {
+  display: none !important;
+}

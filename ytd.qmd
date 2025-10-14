@@ -1,8 +1,0 @@
----
-title: "YTD Map"
-format: html
----
-
-# Year-to-Date Map
-
-![](https://stg4-edwards-latest.s3.us-east-2.amazonaws.com/contrib_zone_w_table_ytd_latest.png){width=100%}
