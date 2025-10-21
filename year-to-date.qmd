@@ -3,4 +3,4 @@ title: "year-to-date"
 format: html
 ---
 
-![](https://stg4-edwards-latest.s3.us-east-2.amazonaws.com/contrib_zone_w_table_ytd_latest.png){.map-full}
+![](https://stg4-edwards-latest.s3.us-east-2.amazonaws.com/latest_ytd.png){.map-full}
