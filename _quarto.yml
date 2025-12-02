@@ -9,6 +9,8 @@ website:
         href: recent-24.qmd
       - text: "YTD"
         href: year-to-date.qmd
+      - text: "Hyetograph"
+        href: hyet.qmd
 
 format:
   html:
